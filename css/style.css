@@ -1,0 +1,495 @@
+/* 인덱스 작동 */
+
+*{margin:0; padding:0;}
+ul{list-style: none;}
+a{text-decoration: none; color:black;}
+
+.index:after{display:flex; content:''; clear:both;}
+.index {margin:0; position:relative; float: left; margin-right:5px;}
+
+.index{display:flex; padding:0 15px; width: 20%; height: auto; line-height: 20px; color:black;}
+.index:hover
+.name-list {display:flex;}
+
+.index .name-list{display: none; position: absolute; top: calc(15vh + 23%); left: calc(1vw + 5%); right: 0; text-align: left;}
+.index .name-list a{display: flex; margin: 10px;}
+
+.index{
+    list-style-type: none;
+    position: fixed;
+    top: 2vh;
+    left:2vw;
+}
+
+.name-list{
+    position: flex;
+}
+
+
+/* 중앙 아이덴티티 */
+
+.fixed-item {
+    position: fixed;
+    margin: 0px auto;
+    left: 40%;
+    transform: translateX(-20%);
+    top: 40%;
+    transform: translateY(-20%);
+    z-index: 1;
+}
+
+
+/* 텍스트 설정 */
+
+.title {
+    position: relative;
+    text-align: right;
+    font-family: "Dongle", serif;
+    font-size: 26px;
+    line-height: 0.9em;
+}
+
+.describtion {
+    font-family: "Noto Sans KR";
+    text-align: right;
+    font-size: 14px;
+}
+
+#align-center {
+    text-align: center;
+}
+
+#align-left {
+    text-align: left;
+}
+
+/* 왼쪽 레이아웃 정렬 */
+
+.left-wrap {
+    display: flex;
+    margin-top: calc(1vh + 5%);
+}
+
+/* 오른쪽 레이아웃 정렬 */
+
+.right-wrap {
+    display: flex;
+    margin-top: calc(1vh + 5%);
+}
+
+
+/* shape poster 레이아웃 */
+
+.layout1 {
+    position: absolute;
+    left: calc(2vw + 10%);
+    width: 32%;
+}
+
+#img1 {
+    max-width:70%;
+    height: auto;
+}
+
+#img2 {
+    max-width: 50%;
+    height: auto;
+    position: absolute;
+}
+
+#img3 {
+    max-width: 70%;
+    height: auto;
+    position: absolute;
+}
+
+#img4 {
+    max-width: 70%;
+    height: auto;
+    position: absolute;
+}
+
+.layout1 #img1 {
+    float: right;
+    margin-top: 10px;
+}
+
+.layout1 #img2 {
+    float: left;
+    margin-top: calc(2vw + 30%);
+}
+
+.layout1 #img3 {
+    float: right;
+    margin-left: calc(1vw + 50%);
+    margin-top: calc(1vh + 60%);
+}
+
+.layout1 #img4 {
+    float: left;
+    margin-left: calc(1vw + 20%);
+    margin-top: calc(1vh + 110%);
+}
+
+
+.clear{
+    clear:both;
+}
+
+/* Patter Poster 레이아웃 */
+
+.layout2 {
+    position: absolute;
+    left: calc(2vw + 10%);
+    top: calc(2vh + 140%);
+    width: 32%;
+    height: max-content;
+}
+
+#img5 {
+    max-width:50%;
+    height: auto;
+}
+
+#img6 {
+    max-width: 50%;
+    height: auto;
+    position: absolute;
+}
+
+#img7 {
+    max-width: 50%;
+    height: auto;
+    position: absolute;
+}
+
+
+.layout2 #img5 {
+    float: right;
+    margin-top: 10px;
+}
+
+.layout2 #img6 {
+    float: right;
+    margin-top: 30%;
+}
+
+.layout2 #img7 {
+    float: left;
+    margin-top: 90%;
+    margin-left: calc(1vw + 30%);
+}
+
+
+/* Minimal 레이아웃 */
+
+.layout-min {
+    position: absolute;
+    left: calc(2vw + 26%);
+    top: calc(1vh + 250%);
+    height: 40%;
+    width: max-content;
+}
+
+
+#img8 {
+    width: auto;
+    max-height: 10%;
+    position: absolute;
+}
+
+
+/* Maximal Poster 레이아웃 */
+
+.layout-max {
+    position: absolute;
+    left: calc(2vw + 20%);
+    top: calc(1vh + 265%);
+    width: 32%;
+    height: max-content;
+}
+
+#img9 {
+    margin-top: 10px;
+    max-width: 30%;
+    height: auto;
+}
+
+
+/* Generative System Design 레이아웃 */
+
+.layout3 {
+    position: absolute;
+    right: 5%;
+    width: 32%;
+    height: max-content;
+}
+
+#img10 {
+    max-width:70%;
+    height: auto;
+}
+
+#img11 {
+    max-width: 50%;
+    height: auto;
+    position: absolute;
+}
+
+#img12 {
+    max-width: 50%;
+    height: auto;
+    position: absolute;
+}
+
+#img13 {
+    max-width: 60%;
+    height: auto;
+    position: absolute;
+}
+
+#img14 {
+    max-width: 70%;
+    height: auto;
+    position: absolute;
+}
+
+.layout3 #img10 {
+    float: left;
+    margin-top: 10px;
+}
+
+.layout3 #img11 {
+    float: left;
+    margin-top: 20%;
+    margin-left: 40%;
+}
+
+.layout3 #img12 {
+    float: left;
+    margin-top: 50%;
+    margin-left: -70%;
+}
+
+.layout3 #img13 {
+    float: left;
+    margin-top: 90%;
+    margin-left: -50%;
+}
+
+.layout3 #img14 {
+    float: left;
+    margin-top: 120%;
+    margin-left: -80%;
+}
+
+
+
+/* Exhibition Design 레이아웃 */
+
+.layout4 {
+    position: absolute;
+    right: 5%;
+    top: calc(1vh + 140%);
+    width: 32%;
+    height: max-content;
+}
+
+
+#img15 {
+    max-width: 60%;
+    height: auto;
+    position: absolute;
+}
+
+#img16 {
+    max-width: 60%;
+    height: auto;
+    position: absolute;
+}
+
+#img17 {
+    max-width: 60%;
+    height: auto;
+    position: absolute;
+}
+
+#img18 {
+    max-width: 60%;
+    height: auto;
+    position: absolute;
+}
+
+.layout4 #img15 {
+    float: left;
+    margin-top: 10px;
+}
+
+.layout4 #img16 {
+    float:left;
+    margin-top: 30%;
+    margin-left: 30%;
+}
+
+.layout4 #img17 {
+    float: right;
+    margin-top: 50%;
+    margin-left: -20%;
+}
+
+.layout4 #img18 {
+    float: left;
+    margin-top: 80%;
+    margin-left: 35%;
+}
+
+
+
+/* Collectbook 레이아웃 */
+
+.layout5 {
+    position: absolute;
+    right: 5%;
+    top: calc(1vh + 265%);
+    width: 32%;
+    height: max-content;
+}
+
+#img19 {
+    max-width: 60%;
+    height: auto;
+    position: absolute;
+}
+
+#img20 {
+    max-width: 60%;
+    height: auto;
+    position: absolute;
+}
+
+.layout5 #img19 {
+    float: left;
+    margin-left: 10px;
+}
+
+.layout5 #img20 {
+    float: left;
+    margin-top: 30%;
+    margin-left: 35%;
+}
+
+/* Mapping 레이아웃 */
+
+.layout6 {
+    position: absolute;
+    right: 5%;
+    top: calc(1vh + 330%);
+    width: 32%;
+    height: max-content;
+}
+
+#img21 {
+    max-width: 50%;
+    height: auto;
+    position: absolute;
+}
+
+#img22 {
+    max-width: 50%;
+    height: auto;
+    position: absolute;
+}
+
+#img23 {
+    max-width: 40%;
+    height: auto;
+    position: absolute;
+}
+
+#img24 {
+    max-width: 40%;
+    height: auto;
+    position: absolute;
+}
+
+#img25 {
+    max-width: 40%;
+    height: auto;
+    position: absolute;
+}
+
+#img26 {
+    max-width: 50%;
+    height: auto;
+    position: absolute;
+}
+
+#img27 {
+    max-width: 50%;
+    height: auto;
+    position: absolute;
+}
+
+.layout6 #img21 {
+    float: left;
+    margin-top: 10px;
+}
+
+.layout6 #img22 {
+    float: left;
+    margin-top: 20%;
+    margin-left: 35%;
+}
+
+.layout6 #img23 {
+    float: left;
+    margin-top: 30%;
+    margin-left: 65%;
+}
+
+.layout6 #img24 {
+    float: left;
+    margin-top: 50%;
+    margin-left: 65%;
+}
+
+.layout6 #img25 {
+    float: left;
+    margin-top: 55%;
+    margin-left: -25%;
+}
+
+.layout6 #img26 {
+    float: left;
+    margin-top: 60%;
+    margin-left: 5%;
+}
+
+.layout6 #img27 {
+    float: left;
+    margin-top: 80%;
+    margin-left: 40%;
+}
+
+/* 갤러리 스타일 */
+.gallery {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .gallery-item {
+    width: max-content;
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .gallery-item:hover {
+    transform: scale(1.5);
+    animation-timing-function: ease;
+    animation-duration: 0.3s;
+    z-index: 10;
+  }
+  
