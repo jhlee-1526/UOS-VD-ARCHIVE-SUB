@@ -369,7 +369,7 @@ a{text-decoration: none; color:black;}
 
 .layout5 #img19 {
     float: left;
-    margin-left: 10px;
+    margin-top: 10px;
 }
 
 .layout5 #img20 {
@@ -493,3 +493,464 @@ a{text-decoration: none; color:black;}
     z-index: 10;
   }
   
+
+  /* 모바일 */
+
+  @media (max-width: 768px) {
+    
+    *{margin:0; padding:0;}
+    ul{list-style: none;}
+    a{text-decoration: none; color:black;}
+    
+    .index:after{display:flex; content:''; clear:both;}
+    .index {margin:0; position:relative; float: left; margin-right:5px;}
+    
+    .index{display:flex; padding:0 5px; width: 20%; height: auto; line-height: 20px; color:black;}
+    .index:hover
+    .name-list {display:flex;}
+    
+    .index .name-list{display: none; position: absolute; top: calc(5px + 90%); left: 20%; right: 0; text-align: left; z-index: 11;}
+    .index .name-list a{display: flex; margin: 10px;}
+    
+    .index{
+        list-style-type: none;
+        position: fixed;
+        top: 2vh;
+        left:2vw;
+    }
+    
+    .name-list{
+        position: flex;
+        z-index: 11;
+    }
+
+    .mainlogo {
+        width: 110%;
+    }
+
+    .title {
+        position: relative;
+        text-align: right;
+        font-family: "Dongle", serif;
+        font-size: 20px;
+        line-height: 0.9em;
+    }
+    
+    .describtion {
+        font-family: "Noto Sans KR";
+        text-align: right;
+        font-size: 12px;
+    }
+
+
+    /* 중앙 아이덴티티 */
+
+    .fixed-item {
+        position: fixed;
+        margin: 0px auto;
+        left: 30%;
+        transform: translateX(-10%);
+        top: 40%;
+        transform: translateY(-20%);
+        z-index: -1;
+    }
+
+    .personal-img {
+        width: 70%;
+    }
+
+
+    .layout1 {
+        position: absolute;
+        left: 10%;
+        width: 32%;
+        margin-top: 20%;
+    }
+    
+    #img1 {
+        max-width:80%;
+        height: auto;
+    }
+    
+    #img2 {
+        max-width: 70%;
+        height: auto;
+        position: absolute;
+    }
+    
+    #img3 {
+        max-width: 80%;
+        height: auto;
+        position: absolute;
+    }
+    
+    #img4 {
+        max-width: 80%;
+        height: auto;
+        position: absolute;
+    }
+
+    .layout1 #img1 {
+        float: right;
+        margin-top: 10px;
+    }
+    
+    .layout1 #img2 {
+        float: left;
+        margin-top: calc(2vw + 40%);
+        margin-left: -10%;
+    }
+    
+    .layout1 #img3 {
+        float: right;
+        margin-left: calc(1vw + 30%);
+        margin-top: calc(1vh + 90%);
+    }
+    
+    .layout1 #img4 {
+        float: left;
+        margin-left: calc(1vw + 5%);
+        margin-top: calc(1vh + 140%);
+    }
+    
+    
+    .clear{
+        clear:both;
+    }
+
+    
+/* Patter Poster 레이아웃 */
+
+.layout2 {
+    position: absolute;
+    left: 10%;
+    top: 60%;
+    width: 32%;
+    height: max-content;
+}
+
+#img5 {
+    max-width:80%;
+    height: auto;
+}
+
+#img6 {
+    max-width: 80%;
+    height: auto;
+    position: absolute;
+}
+
+#img7 {
+    max-width: 80%;
+    height: auto;
+    position: absolute;
+}
+
+
+.layout2 #img5 {
+    float: right;
+    margin-top: 10px;
+}
+
+.layout2 #img6 {
+    float: right;
+    margin-top: 80%;
+}
+
+.layout2 #img7 {
+    float: left;
+    margin-top: 140%;
+    margin-left: 60%;
+}
+
+
+/* Minimal 레이아웃 */
+
+.layout-min {
+    position: absolute;
+    left: 5%;
+    top: 105%;
+    height: 20%;
+    width: max-content;
+}
+
+
+#img8 {
+    width: auto;
+    max-height: 7%;
+    position: absolute;
+}
+
+
+/* Maximal Poster 레이아웃 */
+
+.layout-max {
+    position: absolute;
+    left: 10%;
+    top: 115%;
+    width: 32%;
+    height: max-content;
+}
+
+#img9 {
+    margin-top: 10px;
+    max-width: 60%;
+    height: auto;
+}
+
+
+/* Generative System Design 레이아웃 */
+
+.layout3 {
+    position: absolute;
+    right: 5%;
+    width: 32%;
+    height: max-content;
+}
+
+#img10 {
+    max-width:70%;
+    height: auto;
+}
+
+#img11 {
+    max-width: 50%;
+    height: auto;
+    position: absolute;
+}
+
+#img12 {
+    max-width: 50%;
+    height: auto;
+    position: absolute;
+}
+
+#img13 {
+    max-width: 60%;
+    height: auto;
+    position: absolute;
+}
+
+#img14 {
+    max-width: 70%;
+    height: auto;
+    position: absolute;
+}
+
+.layout3 #img10 {
+    float: left;
+    margin-top: 10px;
+}
+
+.layout3 #img11 {
+    float: left;
+    margin-top: 20%;
+    margin-left: 40%;
+}
+
+.layout3 #img12 {
+    float: left;
+    margin-top: 50%;
+    margin-left: -70%;
+}
+
+.layout3 #img13 {
+    float: left;
+    margin-top: 90%;
+    margin-left: -50%;
+}
+
+.layout3 #img14 {
+    float: left;
+    margin-top: 120%;
+    margin-left: -80%;
+}
+
+
+/* Exhibition Design 레이아웃 */
+
+.layout4 {
+    position: absolute;
+    right: 5%;
+    top: 50%;
+    width: 32%;
+    height: max-content;
+}
+
+
+#img15 {
+    max-width: 70%;
+    height: auto;
+    position: absolute;
+}
+
+#img16 {
+    max-width: 80%;
+    height: auto;
+    position: absolute;
+}
+
+#img17 {
+    max-width: 80%;
+    height: auto;
+    position: absolute;
+}
+
+#img18 {
+    max-width: 80%;
+    height: auto;
+    position: absolute;
+}
+
+.layout4 #img15 {
+    float: left;
+    margin-top: 10px;
+}
+
+.layout4 #img16 {
+    float:left;
+    margin-top: 50%;
+    margin-left: 30%;
+}
+
+.layout4 #img17 {
+    float: right;
+    margin-top: 100%;
+    margin-left: -20%;
+}
+
+.layout4 #img18 {
+    float: left;
+    margin-top: 150%;
+    margin-left: 35%;
+}
+
+
+
+/* Collectbook 레이아웃 */
+
+.layout5 {
+    position: absolute;
+    right: 15%;
+    top: 115%;
+    width: 32%;
+    height: max-content;
+}
+
+#img19 {
+    max-width: 90%;
+    height: auto;
+    position: absolute;
+}
+
+#img20 {
+    max-width: 90%;
+    height: auto;
+    position: absolute;
+}
+
+.layout5 #img19 {
+    float: left;
+    margin-top: 10px;
+}
+
+.layout5 #img20 {
+    float: left;
+    margin-top: 60%;
+    margin-left: 35%;
+}
+
+/* Mapping 레이아웃 */
+
+.layout6 {
+    position: absolute;
+    right: 15%;
+    top: 140%;
+    width: 40%;
+    height: max-content;
+}
+
+#img21 {
+    max-width: 50%;
+    height: auto;
+    position: absolute;
+}
+
+#img22 {
+    max-width: 50%;
+    height: auto;
+    position: absolute;
+}
+
+#img23 {
+    max-width: 40%;
+    height: auto;
+    position: absolute;
+}
+
+#img24 {
+    max-width: 40%;
+    height: auto;
+    position: absolute;
+}
+
+#img25 {
+    max-width: 40%;
+    height: auto;
+    position: absolute;
+}
+
+#img26 {
+    max-width: 50%;
+    height: auto;
+    position: absolute;
+}
+
+#img27 {
+    max-width: 50%;
+    height: auto;
+    position: absolute;
+}
+
+.layout6 #img21 {
+    float: left;
+    margin-top: 10px;
+}
+
+.layout6 #img22 {
+    float: left;
+    margin-top: 20%;
+    margin-left: 35%;
+}
+
+.layout6 #img23 {
+    float: left;
+    margin-top: 30%;
+    margin-left: 65%;
+}
+
+.layout6 #img24 {
+    float: left;
+    margin-top: 50%;
+    margin-left: 65%;
+}
+
+.layout6 #img25 {
+    float: left;
+    margin-top: 55%;
+    margin-left: -25%;
+}
+
+.layout6 #img26 {
+    float: left;
+    margin-top: 60%;
+    margin-left: 5%;
+}
+
+.layout6 #img27 {
+    float: left;
+    margin-top: 80%;
+    margin-left: 40%;
+}
+
+  }
