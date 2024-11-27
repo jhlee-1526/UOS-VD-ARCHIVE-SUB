@@ -496,7 +496,7 @@ a{text-decoration: none; color:black;}
 
   /* 모바일 */
 
-  @media (max-width: 768px) {
+  @media (max-width: 1080px) {
     
     *{margin:0; padding:0;}
     ul{list-style: none;}
